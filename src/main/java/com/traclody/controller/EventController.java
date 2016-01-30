@@ -24,6 +24,6 @@ public class EventController {
 	@RequestMapping(value="/event",method=RequestMethod.POST)
 	public String processEvent(@ModelAttribute("event") Event event){
 		System.out.println(event.getNom() +" "+event.getPrenom());
-		return "event";		
+		return "redirect:index.html";		
 	}
 }
