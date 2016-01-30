@@ -7,6 +7,7 @@
 <title>Index</title>
 </head>
 <body>
-	<h1>Hello!</h1>
+	<h1>Hello ${event.getNom()} ${event.prenom}!</h1>
+	 
 </body>
 </html>
