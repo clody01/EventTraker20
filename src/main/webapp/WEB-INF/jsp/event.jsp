@@ -14,6 +14,7 @@
 <label for="textinput2">Prenom :</label>
 <form:input path="prenom"/><br/>
 <input type ="submit" class="btn" value="Enter event"/>
-</form:form>
+</form:form><br/>
+<h1>${event.getNom()}</h1>
 </body>
 </html>
